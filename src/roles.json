@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Demiurge",
+    "role_file": "developer.txt",
+    "model": "gpt-4o",
+    "input_tokens": 28672,
+    "output_tokens": 4096,
+    "temperature": 0.8,
+    "message_history": true,
+    "with_name": true,
+    "add_discord_info": true
+  },
+  {
+    "name": "SocialNick",
+    "role_file": "socialmedia.txt",
+    "model": "gpt-4-turbo-preview",
+    "input_tokens": 4096,
+    "output_tokens": 4096,
+    "temperature": 0.9,
+    "add_discord_info": true,
+    "message_history": true,
+    "with_name": true,
+    "channel_id": "947760852428275783"
+  },
+  {
+    "name": "AutoSocialNick",
+    "role_file": "auto_social_kamloops.txt",
+    "model": "gpt-4-turbo-preview",
+    "input_tokens": 4096,
+    "output_tokens": 1500,
+    "temperature": 0.8,
+    "add_discord_info": false,
+    "message_history": false,
+    "with_name": false,
+    "channel_id": "1162308115287523368"
+  }
+]
